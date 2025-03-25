@@ -1,6 +1,6 @@
 {
   "homepage": "https://../currentweathernews",
-  "name": "weatherportal",
+  "name": "currentweathernews",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
