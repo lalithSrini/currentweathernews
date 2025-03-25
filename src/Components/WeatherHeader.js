@@ -6,7 +6,7 @@ import { useTheme } from '../context/ThemeContext';
 import { SharedContext } from '../context/SharedContext';
 
 const WeatherHeader = () => {
-  const [city, setCity] = useState( localStorage.getItem("hometown") || 'Jammalamadugu'); // Default city set to Nellore
+  const [city, setCity] = useState( localStorage.getItem("hometown") || 'kadapa'); // Default city set to Nellore
   const API_KEY = 'fc88c3d4dbff34df7ce72ef2036e4dfb'; // Replace with your API key
 
   const { setSharedValue ,  sharedValue } = useContext(SharedContext); // Access setSharedValue from context
