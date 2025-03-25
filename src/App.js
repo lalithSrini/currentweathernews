@@ -28,7 +28,7 @@ const MainApp = () => {
   }, [theme]);
 
   return (
-    <Router basename='/weatherportal'>
+    <Router basename='/currentweathernews'>
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/profile" element={<Dashboard />} />

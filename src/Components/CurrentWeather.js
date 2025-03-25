@@ -15,11 +15,18 @@ const CurrentWeather = ({ weatherData }) => {
 
     console.log(weatherData);
 
+    weatherdatacurr = null;
+
 
     
-    const timestamp = weatherdatacurr.dt;
+    const timestamp = weatherdatacurr?.dt;
 
     // console.log(timestamp.dt);
+
+    if(timestamp === null)
+    {
+      return;
+    }
 
 
     const formattedDate = new Date(timestamp * 1000).toLocaleDateString('en-US', {
