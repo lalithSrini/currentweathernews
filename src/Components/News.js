@@ -17,7 +17,7 @@ function News() {
 
     
     useEffect(() => {
-        const city = sharedValue || "Nellore";
+        const city = sharedValue || "Kadapa";
 
         const apikey = process.env.REACT_APP_NEWS_API_KEY;
 

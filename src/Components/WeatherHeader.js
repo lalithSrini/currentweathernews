@@ -6,8 +6,8 @@ import { useTheme } from '../context/ThemeContext';
 import { SharedContext } from '../context/SharedContext';
 
 const WeatherHeader = () => {
-  const [city, setCity] = useState( localStorage.getItem("hometown") || 'kadapa'); // Default city set to Nellore
-  const API_KEY = 'fc88c3d4dbff34df7ce72ef2036e4dfb'; // Replace with your API key
+  const [city, setCity] = useState( localStorage.getItem("hometown") || 'kadapa'); // Default city set to kadapa
+  const API_KEY = '4113ad4bbd952106b76bc75f421397ed'; // Replace with your API key
 
   const { setSharedValue ,  sharedValue } = useContext(SharedContext); // Access setSharedValue from context
 
