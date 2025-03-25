@@ -15,7 +15,6 @@ const CurrentWeather = ({ weatherData }) => {
 
     console.log(weatherData);
 
-    weatherdatacurr = null;
 
 
     
